@@ -1,0 +1,6 @@
+conda create -p venv python==3.10 -y
+conda activate ./venv/
+pip install -r requirments.txt
+python sql.py
+## https://aistudio.google.com/app/apikey
+streamlit run app.py
